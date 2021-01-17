@@ -7,6 +7,4 @@ layout: default
 
 <a href="/posts">List of posts</a>
 
-<a href="/posts_per_category">List of posts per category</a>
-
 <a href="/categories">Categories</a>
