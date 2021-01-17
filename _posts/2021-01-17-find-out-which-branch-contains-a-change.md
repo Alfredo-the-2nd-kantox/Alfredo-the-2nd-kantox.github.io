@@ -4,8 +4,8 @@ title: Find out which branch contains a change
 description: 
 date: 2021-01-17 05:42:00
 image: 
-categories: [git]
-tags: [tip]
+categories: git
+tags: tip
 ---
 
 This filters the lists of branches to only those who have the given commit among their ancestors.

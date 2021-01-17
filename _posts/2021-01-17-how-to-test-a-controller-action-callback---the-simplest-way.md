@@ -4,7 +4,7 @@ title: How to test a controller action callback - the simplest way
 description: 
 date: 2021-01-17 05:42:00
 image: 
-categories: [rails test]
+categories: rails test
 tags: []
 ---
 

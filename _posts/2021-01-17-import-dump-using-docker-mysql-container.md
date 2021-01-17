@@ -4,7 +4,7 @@ title: Import dump using docker mysql container
 description: 
 date: 2021-01-17 05:42:00
 image: 
-categories: [mysql]
+categories: mysql
 tags: []
 ---
 
