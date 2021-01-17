@@ -7,15 +7,4 @@ layout: default
 
 <a href="/posts">List of posts</a>
 
-<hr>
-
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
-
+<a href="/posts_per_category">List of posts per category</a>

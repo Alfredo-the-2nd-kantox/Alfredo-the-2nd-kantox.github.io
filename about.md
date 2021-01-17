@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+
+[Online post generator](https://anasrar.github.io/Jekyll-Post-Generator/)
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 Theme documentation:

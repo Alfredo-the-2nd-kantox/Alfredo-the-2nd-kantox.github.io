@@ -41,3 +41,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - scope:
+      type: categories  # select all category pages
+    values:
+      layout: category_page
+      permalink: categories/:category/

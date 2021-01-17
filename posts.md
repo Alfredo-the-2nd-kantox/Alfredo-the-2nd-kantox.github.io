@@ -5,8 +5,6 @@
 layout: default
 ---
 
-<header><a href="/">Main</a></header>
-
 <ul>
   {% for post in site.posts %}
     <li>

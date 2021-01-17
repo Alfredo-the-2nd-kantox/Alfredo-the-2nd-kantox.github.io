@@ -16,11 +16,12 @@
     <div id="container">
       <div class="inner">
 
-        <header><a href="/">Main</a></header>
+        {% include menu.html %}
 
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
@@ -36,6 +37,15 @@
 	{% endif %}
         </section>
         <hr>
+
+        {% if page.name != "about.md" %}
+        <ul>
+          <li>Categories: {% for category in page.categories %} {{ category }} {% endfor %}</li>
+          <li>Tags: {% for tag in page.tags %} {{ tag }} {% endfor %}</li>
+        </ul>
+        <hr>
+        {% endif %}
+       
         
         <section id="main_content">
           {{ content }}
