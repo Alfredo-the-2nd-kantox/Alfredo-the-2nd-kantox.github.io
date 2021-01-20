@@ -7,7 +7,7 @@ title: Content per category
     {{ category[0] | downcase }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedcategories = categories | split:' ' | sort %}
+{% assign sortedcategories = categories | split:' ' | uniq | sort %}
 
 <ul class="inline_list">
   {% assign categories_list = sortedcategories %}

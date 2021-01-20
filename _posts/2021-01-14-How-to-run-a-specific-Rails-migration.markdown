@@ -9,4 +9,4 @@ categories: rails migration
     irb(main)> require "#{Rails.root.to_s}/db/migrate/20160211142708_create_onboardings.rb"
     irb(main)> CreateOnboardings.migrate(:up)
 
-Source: https://www.firmhouse.com/blog/forcing-a-rails-database-migration
+Source: [https://www.firmhouse.com/blog/forcing-a-rails-database-migration](https://www.firmhouse.com/blog/forcing-a-rails-database-migration)
