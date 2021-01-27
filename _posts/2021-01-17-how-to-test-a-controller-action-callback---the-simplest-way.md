@@ -25,8 +25,10 @@ See it in action at `spec/controllers/api/v1/api_controller_spec.rb`
           @controller = TestingApiLoggingController.new
         end
 
+        # important to leave things as they were before
         after do
           Object.send(:remove_const, :TestingApiLoggingController)
+          Rails.application.reload_routes!
         end
 
         let(:api_log_entry) { Api::ApiLogEntry.new(index: 'api', connection: 'GET') }
