@@ -21,7 +21,7 @@ gem "jekyll", "~> 3.8.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "github-pages"
-  gem "jekyll-theme-tactile", "~> 0.1.1"
+  gem "jekyll-theme-primer", "~> 0.5.4"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

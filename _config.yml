@@ -26,7 +26,7 @@ github_username:  alfredo-the-2nd-kantox
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-tactile
+theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
 
