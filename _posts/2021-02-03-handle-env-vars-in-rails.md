@@ -15,7 +15,7 @@ tags: []
 TL;DR
 
 - safe, default values in `.env.development`. This goes in the repo.
-- custom overrides in `.env.development.local` or `.env.local`
+- custom overrides in `.env.development.local`, `.env.staging.local` or `.env.local`
 - other vars nonrelated to the app itself in `.env`
 
 ## List of priorities
