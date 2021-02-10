@@ -17,3 +17,10 @@ tags: []
       echo "$(pwd)/$FILE"
       echo "$(pwd)/$FILE already exists!"
     fi
+
+UPDATE:
+
+No need to check if the file exists; `touch` will do it itself
+
+    touch "$(pwd)/$FILE"
+
