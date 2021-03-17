@@ -17,3 +17,5 @@ layout: default
     Do not forget to remove brackets in categories and tags (at least, if there are more than one)
 
 [Github Guide in Mastering Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+
+[ShellCheck - finds bugs in your shell scripts](https://www.shellcheck.net/#)
