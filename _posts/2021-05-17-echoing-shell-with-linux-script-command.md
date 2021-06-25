@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Echoing shell with linux script command
-description: 
+description:
 date: 2021-05-17 10:49:00
-image: 
-categories: []
-tags: [linux]
+image:
+categories: linux
+tags: []
 ---
 
 Source: https://man7.org/linux/man-pages/man1/script.1.html
