@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker tips: Clean Up Your Local Machine
+title: Docker tips - Clean Up Your Local Machine
 description:
 date: 2021-07-06 05:07:00
 image:
