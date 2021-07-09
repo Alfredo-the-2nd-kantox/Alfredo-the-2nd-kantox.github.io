@@ -4,7 +4,7 @@ title: Create a new VPN in Linux
 description:
 date: 2021-06-23 12:46:00
 image:
-categories: linux, vpn
+categories: linux vpn
 tags: []
 ---
 
