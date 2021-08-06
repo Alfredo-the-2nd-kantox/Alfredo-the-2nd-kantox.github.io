@@ -2,7 +2,7 @@
 layout: post
 title: How to compare files between different branches
 description:
-date: 2021-08-01 09:30:00
+date: 2021-08-01 09:35:00
 image:
 categories: git
 tags: []
